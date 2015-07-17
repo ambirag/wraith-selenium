@@ -153,9 +153,11 @@ INSTALLATION
 Installing and running Selenium-Wraith is very similar to the original BBC Wraith gem.
 The documentation below is taken from the BBC Wraith gem README file.
 
-Open terminal and run
-
-    gem install wraith
+Since wraith-selenium gem is not available in rubygems.org yet, Open terminal under the root project folder and run
+    
+    gem build wraith.gemspec
+    gem install selenium-wraith-0.1.gem
+If you already have wraith installed, it will ask you permission before overwriting the 'wraith' binary file with selenium-wraith's 'wraith' binary
 
 You can then run the following to create a template snap.js and config file:
 
